@@ -1,1 +1,10 @@
-{}
+{
+  "name": "octra-web",
+  "version": "1.0.0",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/css/tailwind.css -o ./public/tailwind.css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  }
+}

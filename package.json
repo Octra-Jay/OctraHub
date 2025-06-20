@@ -1,1 +1,18 @@
-{}
+{
+  "name": "octra-project",
+  "version": "1.0.0",
+  "description": "All-in-One Discord and Guilded Bot with Website",
+  "main": "bot/index.js",
+  "scripts": {
+    "start": "node bot/index.js",
+    "dev": "nodemon bot/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "guilded.js": "^0.18.1",
+    "@supabase/supabase-js": "^2.45.4",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "nodemon": "^3.1.4"
+  }
+} 
